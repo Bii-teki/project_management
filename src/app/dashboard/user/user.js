@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import Image from 'next/image';
 import { FiEdit, FiSave, FiX, FiUpload, FiUser, FiMapPin, FiPhone, FiMail } from "react-icons/fi";
 
 const UserProfile = () => {
@@ -57,7 +58,7 @@ const UserProfile = () => {
         {/* Decorative elements */}
         <div className="absolute top-0 left-0 w-full h-64 bg-indigo-200 dark:bg-indigo-900/20 opacity-20 -z-10"></div>
         <div className="absolute top-0 right-0 w-32 h-32 bg-blue-300 dark:bg-blue-800/30 rounded-full filter blur-3xl opacity-30 -z-10"></div>
-        
+
         {/* Main Profile Card */}
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl overflow-hidden transition-all duration-500 transform hover:shadow-2xl">
           {/* Profile Header with Gradient */}
@@ -83,10 +84,15 @@ const UserProfile = () => {
               <div className="relative group">
                 <div className="w-48 h-48 rounded-2xl overflow-hidden border-4 border-white dark:border-gray-700 shadow-xl relative">
                   {tempInfo.profileImage ? (
-                    <img
+                    <Image
                       src={tempInfo.profileImage}
                       alt={`${tempInfo.name}'s profile`}
                       className="w-full h-full object-cover"
+                      width={500}
+                      height={500}
+                      style={{
+                        objectFit: 'cover'
+                      }}
                     />
                   ) : (
                     <div className="w-full h-full bg-indigo-100 dark:bg-indigo-900/20 flex items-center justify-center">
@@ -94,7 +100,7 @@ const UserProfile = () => {
                     </div>
                   )}
                 </div>
-                
+
                 {isEditing && (
                   <>
                     <button

@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import Image from 'next/image';
 import { FiUser, FiMail, FiPhone, FiMapPin, FiLock, FiEye, FiEyeOff, FiUpload, FiBriefcase, FiTool } from 'react-icons/fi';
 
 const UserRegistration = () => {
@@ -136,7 +137,7 @@ const UserRegistration = () => {
                 <div className="relative mb-4 group">
                   <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 bg-gray-100 dark:bg-gray-700 flex items-center justify-center shadow-md">
                     {formData.profileImage ? (
-                      <img 
+                      <Image 
                         src={URL.createObjectURL(formData.profileImage)} 
                         alt="Profile preview" 
                         className="w-full h-full object-cover"

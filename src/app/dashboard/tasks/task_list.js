@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import Image from "next/image";
 import { FiPlus, FiFolder, FiClock, FiCalendar, FiX, FiUsers,FiInfo, FiUser, FiImage, FiTrash2 } from "react-icons/fi";
 
 // Sample data
@@ -296,7 +297,7 @@ export default function Projects() {
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                       {project.progressImages.map((image) => (
                         <div key={image.id} className="relative group">
-                          <img
+                          <Image
                             src={image.url}
                             alt={image.caption || "Progress photo"}
                             className="w-full h-24 object-cover rounded-lg cursor-pointer"
@@ -378,7 +379,7 @@ export default function Projects() {
 
             <div className="p-6 space-y-4">
               <div className="flex justify-center">
-                <img
+                <Image
                   src={URL.createObjectURL(newImage.file)}
                   alt="Preview"
                   className="max-h-64 rounded-lg"
@@ -433,7 +434,7 @@ export default function Projects() {
               <FiX className="text-xl" />
             </button>
             <div className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden">
-              <img
+              <Image
                 src={selectedImage.url}
                 alt={selectedImage.caption || "Progress photo"}
                 className="w-full max-h-[80vh] object-contain"
