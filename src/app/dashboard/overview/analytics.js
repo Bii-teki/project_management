@@ -26,7 +26,7 @@ function Analytics() {
   return (
     <div className="w-full space-y-6">
       {/* Top Metrics Cards - Now properly stretched */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-6 gap-4">
         {/* Total Projects Card */}
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 p-4 flex-1 min-w-0">
           <div className="flex items-center gap-3 h-full">
