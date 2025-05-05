@@ -1,0 +1,226 @@
+export const dummyProjects = {
+  active: [
+    {
+      id: 1,
+      title: "Website Redesign",
+      description: "Updating UI/UX for company site",
+      startDate: "2024-06-01",
+      endDate: "2024-07-15",
+      manager: "Alice Kimani",
+      fundi: "Joseph Otieno",
+      status: "In Progress",
+      budget: "KES 500,000"
+    },
+    {
+      id: 2,
+      title: "Mobile App Launch",
+      description: "Beta release for new iOS/Android app",
+      startDate: "2024-07-01",
+      endDate: "2024-09-01",
+      manager: "Brian Njoroge",
+      fundi: "Grace Wambui",
+      status: "Planning",
+      budget: "KES 1,200,000"
+    },
+    {
+      id: 3,
+      title: "Internal Dashboard",
+      description: "Create analytics dashboard for sales team",
+      startDate: "2024-06-10",
+      endDate: "2024-08-20",
+      manager: "Daniel Kibe",
+      fundi: "Esther Muthoni",
+      status: "In Progress",
+      budget: "KES 350,000"
+    },
+    {
+      id: 4,
+      title: "Marketing Campaign",
+      description: "Q3 digital ads and content planning",
+      startDate: "2024-07-05",
+      endDate: "2024-07-30",
+      manager: "Irene Achieng",
+      fundi: "Peter Mwangi",
+      status: "Pending",
+      budget: "KES 800,000"
+    },
+    {
+      id: 5,
+      title: "Customer Portal",
+      description: "Develop new login portal for clients",
+      startDate: "2024-05-20",
+      endDate: "2024-07-10",
+      manager: "Kevin Oloo",
+      fundi: "Lucy Njuguna",
+      status: "In Progress",
+      budget: "KES 600,000"
+    },
+    {
+      id: 6,
+      title: "Product Onboarding",
+      description: "Improve new user onboarding flow",
+      startDate: "2024-07-15",
+      endDate: "2024-08-15",
+      manager: "Mary Wanjiru",
+      fundi: "David Kariuki",
+      status: "Not Started",
+      budget: "KES 400,000"
+    },
+    {
+      id: 7,
+      title: "CRM Migration",
+      description: "Move data from legacy CRM to HubSpot",
+      startDate: "2024-06-25",
+      endDate: "2024-07-25",
+      manager: "James Wachira",
+      fundi: "Beatrice Chebet",
+      status: "In Progress",
+      budget: "KES 750,000"
+    },
+    {
+      id: 8,
+      title: "SEO Optimization",
+      description: "Enhance website SEO rankings",
+      startDate: "2024-06-15",
+      endDate: "2024-07-31",
+      manager: "Caroline Nduta",
+      fundi: "Samuel Ndungu",
+      status: "In Progress",
+      budget: "KES 300,000"
+    },
+    {
+      id: 9,
+      title: "Security Audit",
+      description: "Conduct external security audit",
+      startDate: "2024-06-05",
+      endDate: "2024-06-30",
+      manager: "Patrick Kiptoo",
+      fundi: "Naomi Wanja",
+      status: "In Progress",
+      budget: "KES 900,000"
+    },
+    {
+      id: 10,
+      title: "Social Media Strategy",
+      description: "Plan for Q3 growth on Instagram and X",
+      startDate: "2024-07-01",
+      endDate: "2024-08-01",
+      manager: "Faith Ndungu",
+      fundi: "Victor Kariuki",
+      status: "Planning",
+      budget: "KES 500,000"
+    },
+    {
+      id: 11,
+      title: "DevOps Upgrade",
+      description: "Migrate pipelines to GitHub Actions",
+      startDate: "2024-06-20",
+      endDate: "2024-07-20",
+      manager: "George Muli",
+      fundi: "Clara Auma",
+      status: "In Progress",
+      budget: "KES 650,000"
+    },
+    {
+      id: 12,
+      title: "AI Chatbot Integration",
+      description: "Integrate AI chatbot for support team",
+      startDate: "2024-07-10",
+      endDate: "2024-08-25",
+      manager: "Winnie Mburu",
+      fundi: "Elvis Odhiambo",
+      status: "Not Started",
+      budget: "KES 1,000,000"
+    },
+  ],
+  archived: [
+    {
+      id: 13,
+      title: "User Survey",
+      description: "Conduct feedback survey on mobile UX",
+      startDate: "2024-06-01",
+      endDate: "2024-06-15",
+      manager: "Joyce Wanjala",
+      fundi: "Frank Mutua",
+      status: "Completed",
+      budget: "KES 150,000"
+    },
+    {
+      id: 14,
+      title: "Performance Improvements",
+      description: "Optimize React frontend performance",
+      startDate: "2024-06-18",
+      endDate: "2024-07-18",
+      manager: "Derrick Maina",
+      fundi: "Hellen Achieng",
+      status: "Completed",
+      budget: "KES 200,000"
+    },
+    {
+      id: 15,
+      title: "Content Management Revamp",
+      description: "Switch CMS to headless solution",
+      startDate: "2024-07-05",
+      endDate: "2024-08-15",
+      manager: "Eric Mugendi",
+      fundi: "Nancy Otieno",
+      status: "Completed",
+      budget: "KES 850,000"
+    },
+    {
+      id: 16,
+      title: "Training Sessions",
+      description: "Prepare materials and workshops for interns",
+      startDate: "2024-06-10",
+      endDate: "2024-07-05",
+      manager: "Lilian Wambua",
+      fundi: "Steve Mwangi",
+      status: "Completed",
+      budget: "KES 100,000"
+    },
+    {
+      id: 17,
+      title: "Partner Program",
+      description: "Launch affiliate and partner program",
+      startDate: "2024-07-01",
+      endDate: "2024-09-15",
+      manager: "Janet Njenga",
+      fundi: "Brian Kiprotich",
+      status: "Completed",
+      budget: "KES 950,000"
+    },
+    {
+      id: 18,
+      title: "API Documentation",
+      description: "Create public-facing API docs",
+      startDate: "2024-06-05",
+      endDate: "2024-06-25",
+      manager: "Andrew Kihara",
+      fundi: "Sharon Gichuki",
+      status: "Completed",
+      budget: "KES 300,000"
+    },
+    {
+      id: 19,
+      title: "New Office Setup",
+      description: "Setup workstations and internet for new branch",
+      startDate: "2024-06-15",
+      endDate: "2024-07-15",
+      manager: "Paul Ochieng",
+      fundi: "Ruth Wairimu",
+      status: "Completed",
+      budget: "KES 1,500,000"
+    },
+    {
+      id: 20,
+      title: "Accessibility Audit",
+      description: "Ensure site meets WCAG compliance",
+      startDate: "2024-06-12",
+      endDate: "2024-07-12",
+      manager: "Sarah Mumo",
+      fundi: "Moses Mbithi",
+      status: "Completed",
+      budget: "KES 250,000"
+    },
+  ],
+};
